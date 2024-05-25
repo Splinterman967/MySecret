@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Secret Notes</string>
+    <string name="save_button">save</string>
+    <string name="show">show</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="textview">TextView</string>
+    <string name="notes">TextView</string>
+    <string name="note_recyclerview" />
+    <string name="add_note" />
+    <string name="noteTextRecyclerItem" />
+    <string name="titleTextRecyclerItem" />
+    <string name="clear">clear</string>
+    <string name="search_item">Search</string>
+    <string name="dialog_title_auth">Password</string>
+    <string name="dialog_msg_auth">enter the password</string>
+    <string name="sharedPreferencesKey">sharedPreferencesKey</string>
+    <string name="secretCollectionKey">secretCollectionKey</string>
+    <string name="noteCollectionKey">noteCollectionKey</string>
+    <string name="firstRunKey">firstRunKey</string>
+    <string name="ab_note_title">\tNotes</string>
+    <string name="ab_secret_title">\t\t\t\t\t\t\t\t\t\tMy Secrets</string>
+    <string name="my_secret_notes">My Secret Notes</string>
+
+</resources>

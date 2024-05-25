@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asıL_arkaplan"
+    android:backgroundTint="@color/asıL_arkaplan"
+    tools:context=".recyclerview_notes">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSecret"
+        android:layout_width="414dp"
+        android:layout_height="666dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/asıL_arkaplan"
+        android:padding="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addSecretFAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        android:contentDescription="creating new note button"
+        android:foregroundTint="#FFFFFF"
+        android:src="@drawable/ic_baseline_add_24"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#4CAF50"
+        app:tint="@android:color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/asıL_arkaplan"
+        android:backgroundTint="@color/asıL_arkaplan"
+        app:cardBackgroundColor="@color/asıL_arkaplan"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/addSecretFAButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerViewSecret">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/asıL_arkaplan"
+            android:backgroundTint="@color/asıL_arkaplan"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7479514980414379/6208350007" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

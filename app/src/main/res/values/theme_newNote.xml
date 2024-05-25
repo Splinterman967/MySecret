@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style  name="Theme.MySecret.newNote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        //buton renkleri
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryVariant">@color/asıL_arkaplan</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF5722</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <!--        <item name="colorOnSecondary">#000000</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
